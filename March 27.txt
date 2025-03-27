@@ -1,0 +1,55 @@
+ERROR in Xampp My SQL 
+ Go to C:\xampp\mysql
+ Delete data
+ Copy backup and save it as data
+ Re-run Xampp Server
+
+To do's March 27:
+1.) Copy f2Lastname (from your folder) and paste it in c:/xampp/htdocs
+
+2.) Open index.html (in htdocs/f2lastname) and save it as index.php
+
+3.) Start Xampp server.
+
+4.) Open web browser and type localhost/f2lastname or localhost/index.php
+
+
+--------USER REGISTRATION------
+5.) In phpMyAdmin, create a database named dbf2lastname (you can use the db created last time).
+6.) In dbf2lastname, create the following tables:
+   tbluser(uid, firstname, lastname, gender, usertype, username, password)
+   tblstudent(sid, program, yearlevel, uid)
+
+7.) In your editor, open a new file.
+8.) Open https://onecompiler.com/php/43czs2u5t in your browser.
+9.) Copy this code and paste it in the new file in your editor.
+10.) Save this new file as connect.php (in htdocs\f2lastname)
+
+11.) Refresh https://onecompiler.com/php/43czs2u5t  in your browser to see User registration code.
+12.) In your editor, open a new file.
+13.) Copy this code and paste it in the new file in your editor.
+14.) Save this new file as register.php.
+
+15.) Refresh https://onecompiler.com/php/43czu66mw  in your browser to see dashboard.php code.
+12.) In your editor, open a new file.
+13.) Copy this code and paste it in the new file in your editor.
+14.) Save this new file as dashboard.php.
+
+15.) Refresh https://onecompiler.com/php/43czw3992  in your browser to see dashboard.php code.
+16.) In your editor, open a new file.
+17.) Copy this code and paste it in the new file in your editor.
+18.) Save this new file as readrecords.php.
+
+19.) Implement Add Student button found in dashboard.php
+
+
+------Add Register Link in INDEX.php-------
+15.) Add this code in index
+     <button><a href="register.php">REGISTER NEW USER</a></button><br>
+
+
+
+
+
+
+
