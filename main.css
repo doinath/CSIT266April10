@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: 000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+    background: #FEF3E2;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header {
+    background-color: #FAB12F;
+    height: 100px; /* Ensure a fixed height for the header */
+    min-height: 100px; /* Prevent shrinking */
+    padding: 10px; /* Ensure there's padding around content */
+    box-sizing: border-box; /* Include padding in the width and height */
+    overflow: visible; /* Ensure the content doesn't overflow or hide */
+    display: flex; /* Ensure flexbox layout */
+    align-items: center; /* Vertically center the content */
+}
+
+.header h1 {
+    margin-top: 0; 
+    margin-left: 10px; 
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block; 
+}
+
+.navigation {
+    height: 50px; /* Ensure a fixed height for the header */
+    min-height: 50px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #000000; /* Top border */
+    border-bottom: 1px solid #000000; /* Bottom border */
+    border-left: none; /* No left border */
+    border-right: none; /* No right border */
+    border-radius: 1px;
+    background-color: #FA812F;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navigation a {
+	color: #000000;
+	font-size: 1em;
+	text-decoration: none;
+    font-weight: bold;
+	
+}
+.navigation a:hover {
+	color: #E1D9D1;
+}
+.navigation ul {
+	list-style: none;
+}
+.navigation a li {
+	text-decoration: none;
+}
+.navigation li {
+    display: inline;
+}
+
+
+.imgMargin {
+    margin: 10px;
+}
+
+.box {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FA4032;
+    padding: 20px;
+    width: 500px; /**/
+    height: 500px;
+    background: #FA812F;
+    color: #FFFFFF;
+    overflow: hidden;
+
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    justify-content: center; /* Center the form vertically */
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* Max width for the contact section */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Ensure the section is centered horizontally */
+}
+.content {
+    flex: 1;
+}
+.contact ul {
+	list-style: none;
+}
+.contact a p {
+	text-decoration: none;
+}
+
+.contact p {
+    padding: 10px;
+    display: inline;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the form contents */
+    align-items: center; /* Horizontally center the form elements */
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Style the labels and inputs */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #FAB12F; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e08f1e; /* Darker on hover */
+}
+
+.footer {
+    width: 100%;
+    background: #FAB12F;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,9 @@
+Create a folder 11_20Mar2025 in your 2_PHP folder.
+Inside this folder (11_20Mar2025), create a folder named f2lastname.
+Inside this folder (f2lastname), design and save index.html.
+index.html must contain the following basic information:
+  - header: logo and title of your project
+  - login, about us, contact us links
+  - footer: Firstname Lastname | Program - Year Level
+
+NOTE: You will have a different design with your groupmates. However, you should use the same color palette, logo and project title.
