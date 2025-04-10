@@ -1,6 +1,6 @@
 <?php    
     include 'connect.php';
-    include 'readrecords.php';   
+    include 'readrecordsvehicle.php';   
     //require_once 'includes/header.php'; 
 ?>
 
